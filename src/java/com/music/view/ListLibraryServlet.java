@@ -60,6 +60,7 @@ public class ListLibraryServlet extends HttpServlet {
             out.println("<title>ListLibraryServlet</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<br><br><a href='https://mnzmi54.github.io/mnzmi-5/'>Back to Index</a>");
             out.println("<h1>ListLibraryServlet</h1>");
             out.println("You currently have <b>"+List.size()+"</b> Music in your collection: <br><br>");
             out.println("<a href='ListLibraryServlet?sort=year'>Sort by Year</a> | ");
@@ -83,7 +84,6 @@ public class ListLibraryServlet extends HttpServlet {
                 out.println("</tr>");
             }
             out.println("</table>");
-            out.println("<br><br><a href='https://mnzmi54.github.io/mnzmi-5/'>Back to Index</a>");
             out.println("</body>");
             out.println("</html>");
             out.close();
