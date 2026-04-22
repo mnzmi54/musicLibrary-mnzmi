@@ -83,6 +83,7 @@ public class ListLibraryServlet extends HttpServlet {
                 out.println("</tr>");
             }
             out.println("</table>");
+            out.println("<br><br><a href='https://mnzmi54.github.io/mnzmi-5/'>Back to Index</a>");
             out.println("</body>");
             out.println("</html>");
             out.close();
